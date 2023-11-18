@@ -146,17 +146,17 @@ header {
     flex-shrink: 0;
     border-radius: 20px;
     background: #FFF;
-    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.10);
     position: relative;
 }
 
 .HHeadHunter {
-    padding: 20px 1px 0px 20px;
+    padding: 20px 1px 0 20px;
     flex-shrink: 0;
 }
 
 .HHnameJob {
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -164,7 +164,7 @@ header {
 }
 
 .HHmoney {
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
     color: #C81F56;
     font-weight: 1500;
     font-size: 20px;
@@ -287,10 +287,11 @@ header {
 
 .fiveScreen {
     background: linear-gradient(350deg, #C81F56 -17.44%, rgba(200, 31, 86, 0.00) 63.54%), #FE840E;
+    padding-bottom: 6%;
 }
 
 .data {
-    color: var(--3, #FEB447);
+    color: #FEB447;
     font-size: 200px;
     font-weight: 900;
     letter-spacing: -4px;
@@ -342,7 +343,7 @@ header {
 }
 
 .science {
-    color: var(--1, #F06C46);
+    color: #F06C46;
     text-align: right;
     font-size: 200px;
     font-style: normal;
@@ -395,4 +396,247 @@ header {
     letter-spacing: 0.75px;
     text-transform: uppercase;
     line-height: 43px;
+}
+
+.sixScreen {
+    margin-top: 5%;
+}
+
+.vsHeading {
+    margin-left: max(20px, 25%);
+    margin-right: max(20px, 25%);
+    display: grid;
+    grid-template-columns: 45% 15% 40%;
+}
+
+#vsNorm {
+    color: #8D8D8D;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 134%;
+    letter-spacing: -0.44px;
+}
+
+#vsVs {
+    color: #C81F56;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134%;
+    letter-spacing: -0.44px;
+}
+
+#vsOur {
+    color: #FE840E;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134%;
+    letter-spacing: -0.44px;
+}
+
+.vscomparison {
+    margin-left: max(20px, 25%);
+    margin-right: max(20px, 25%);
+    display: grid;
+    grid-template-columns: 60% 50%;
+}
+
+.vsNegative {
+    display: flex;
+    margin: 15% 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.16px;
+}
+
+.vsPositive {
+    margin: 15% 0 0 0;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.vsSmileN {
+    margin: 0 10% 0 0;
+    filter: grayscale(100%);
+    width: 45px;
+    height: 45px;
+}
+
+.vsSmileP {
+    margin: 0 10% 0 0;
+    width: 54px;
+    height: 54px;
+}
+
+.vsTextN {
+    width: 50%;
+}
+
+.vsPrice {
+    margin-left: max(20px, 25%);
+    margin-right: max(20px, 25%);
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 60% 60%;
+}
+
+.priceGrayText {
+    margin-top: 13%;
+    color: #C4C4C4;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.priceGrayNum {
+    color: #C4C4C4;
+    font-size: 59px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.priceOrangeText {
+    color: #FE840E;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146%;
+    letter-spacing: -0.34px;
+    text-transform: uppercase;
+}
+
+.priceOrangeNum {
+    color: #FE840E;
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 146%;
+    letter-spacing: -2px;
+}
+
+.shape {
+    margin-left: max(20px, 15%);
+    margin-right: max(20px, 15%);
+    width: 75em;
+    height: 18em;
+    padding-top: 3%;
+    padding-left: 4%;
+    justify-content: center;
+    background: #F06C46;
+    margin-top: 10%;
+    border-radius: 50px;
+}
+
+.shapeHeading {
+    color: #FFFFFF;
+    width: 997px;
+    height: 67px;
+    flex-shrink: 0;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 134%;
+    letter-spacing: -0.54px;
+}
+
+.shapeText {
+    color: #FFFFFF;
+    padding-top: 5%;
+    width: 917px;
+    height: 35px;
+    flex-shrink: 0;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 146%;
+    letter-spacing: -0.34px;
+}
+
+.inputBut {
+    display: flex;
+    padding-top: 4%;
+}
+
+.shapeTel {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.shapeName input {
+    width: 494px;
+    height: 43px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 4%;
+}
+
+.shapeTel input {
+    width: 290px;
+    height: 43px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 4%;
+}
+
+.shapeButBut {
+    width: 130%;
+    height: 43px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #FEB447;
+}
+
+.friends {
+    margin-top: 7%;
+    margin-left: max(20px, 15%);
+    margin-right: max(20px, 15%);
+    display: flex;
+}
+
+.friendsOne,
+.friendsTwo{
+    display: flex;
+}
+
+.friendsTextTen {
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 146%;
+    letter-spacing: -6px;
+    background: linear-gradient(180deg, #F5FA72 32.47%, #FE840E 150.65%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.friendsTextFive {
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 146%;
+    letter-spacing: -6px;
+    background: linear-gradient(180deg, #FE840E 22.46%, #C81F56 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.friendsTextText {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134%;
+    letter-spacing: -0.24px;
+}
+
+.friendsButOne button,
+.friendsButTwo button {
+    background-color: #FEB447;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 20px;
+    width: 216px;
+    height: 43px;
 }
